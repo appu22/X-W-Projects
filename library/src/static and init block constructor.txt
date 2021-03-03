@@ -1,5 +1,0 @@
-class Name : Library 
-two types of block statements  static block , instance init block
-
-constructor same name as class name no return type 
-constructor is used to initiliaztion object 
