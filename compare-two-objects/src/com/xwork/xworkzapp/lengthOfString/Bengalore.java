@@ -17,14 +17,14 @@ public class Bengalore {
 
 		list.add(s);
 
+		System.out.println("Printing Arralist -->: "+list);
 		String[] split = s.split(" ");
-		System.out.println(split.length);
-//		s.toString();
+
+		System.out.println("Words of String -->: "+split.length);
 
 		Set<String> set = new LinkedHashSet<String>();
 		for (String as : split) {
 			set.add(as);
-
 		}
 		Iterator<String> iterator = set.iterator();
 		while (iterator.hasNext()) {
