@@ -1,8 +1,8 @@
-package com.xworkz.xworkzapp.map.RTO;
+package com.xworkz.app.map.RTO;
 
-import com.xworkz.xworkzapp.map.RTO.dao.RtoDAO;
-import com.xworkz.xworkzapp.map.RTO.dao.RtoDAOImple;
-import com.xworkz.xworkzapp.map.RTO.dto.RtoDTO;
+import com.xworkz.app.map.RTO.dao.RtoDAO;
+import com.xworkz.app.map.RTO.dao.RtoDAOImple;
+import com.xworkz.app.map.RTO.dto.RtoDTO;
 
 public class RtoTester {
 

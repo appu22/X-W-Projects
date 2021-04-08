@@ -16,11 +16,12 @@ public class EntrySet {
 		names.put(3, "darshan");
 		names.put(5, "surya");
 		names.put(2, "kiran");
-		System.out.println("using refernce  " + names);
+		System.out.println("using refernce -->  " + names);
 		Set entry = names.entrySet();
 		Iterator itr = entry.iterator();
 		System.out.println("--------using set-------------");
 		while (itr.hasNext()) {
+//			Map.Entry next = (Map.Entry) itr.next();
 			System.out.println(itr.next());
 		}
 

@@ -1,4 +1,4 @@
-package com.xworkz.xworkzapp.map.RTO.dto;
+package com.xworkz.app.map.RTO.dto;
 
 import lombok.Getter;
 import lombok.NonNull;

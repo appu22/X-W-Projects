@@ -1,9 +1,9 @@
-package com.xworkz.xworkzapp.map.RTO.dao;
+package com.xworkz.app.map.RTO.dao;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.xworkz.xworkzapp.map.RTO.dto.RtoDTO;
+import com.xworkz.app.map.RTO.dto.RtoDTO;
 
 public class RtoDAOImple implements RtoDAO {
 

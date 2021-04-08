@@ -22,27 +22,27 @@ public class VilleagePinCodeTester {
 		villeage.put(athani.getVilleagePinCode(), athani);
 		villeage.put(harg.getVilleagePinCode(), harg);
 		villeage.put(mall.getVilleagePinCode(), mall);
-		System.out.println("Villege list  : " + villeage);
 
-		System.out.println("*************************************************************");
-		System.out.println("All pincode list  : " + villeage.keySet());
+//		System.out.println("Villege list  : " + villeage);
+//		System.out.println("*************************************************************");
+//		System.out.println("All pincode list  : " + villeage.keySet());
 //------printing pincode using for each and keyset		
-		Set<Integer> keySet = villeage.keySet();
-		for (Integer pincode : keySet) {
-			System.out.println("inside for each loop pincode list --> " + pincode);
-		}
-		System.out.println("*************************************************************");
-
-//		System.out.println("All Villeage List : "+villeage.values());
-
-//		System.out.println(villeage.entrySet());
+//		Set<Integer> keySet = villeage.keySet();
+//		for (Integer pincode : keySet) {
+//			System.out.println("inside for each loop pincode list --> " + pincode);
+//		}
+//		System.out.println("*************************************************************");
 
 		Set<Entry<Integer, VillegePincodeDTO>> entrySet = villeage.entrySet();
 		Iterator<Entry<Integer, VillegePincodeDTO>> itr = entrySet.iterator();
 		while (itr.hasNext()) {
 			Map.Entry entry = itr.next();
-			System.out.println("Details of villege -->" + itr.next());
+			VillegePincodeDTO dto = (VillegePincodeDTO) entry.getValue();
+			System.out.println("*******************************************************");
+			System.out.println(" villege name  -->" + dto.getVilleageName());
+			System.out.println("villege pincode-->" + dto.getVilleagePinCode());
 		}
+		
 		System.out.println("-----------------------------------------------------------");
 //		
 //		for (Entry<Integer, VillegePincodeDTO> val : entrySet) {
